@@ -1,0 +1,110 @@
+<html>
+<head>
+        <Title>Create User</Title>
+        <link rel="stylesheet" href = "style.css">
+    
+</head>
+
+
+<body>
+    <div class = "main-form">
+        <nav>
+            <div class = "logo">
+                <img src = "logo.png">
+            </div>
+
+            <div class = "nav-links">
+
+                <ul>
+                    <li><a href ="index.html">Home</a> </li>
+                    <li><a href ="users.html">Users</a> </li>
+                    <li><a href ="createUser.html">Create User</a> </li>
+                </ul>
+            </div>
+        </nav>
+
+    
+    <div class = "form-container">
+        
+        <div class = "form-header">
+            <h2><center>Create User</center></h2>
+        </div>
+
+    
+        <form class = "form" id = "form" justify="center">
+            <div class="form-control">
+                <label>First Name</label>
+                <input type="text" placeholder = "Nishat Tasnim" id = "firstname" required>
+                <i class = "fas fa-check-circle"></i>
+                <i class = "fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Last Name</label>
+                <input type="text" placeholder = "Roza" id = "lastname" required>
+                <i class = "fas fa-check-circle"></i>
+                <i class = "fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control" >
+                <label>Gender</label>
+                <br>
+                <input type="radio" id="gender" name="Gender" value="Male" required>
+                <label for="Male">Male</label>
+
+                <input type="radio" id="gender" name="Gender" value="Female" required>
+                <label for="Female">Female</label>
+
+                <i class = "fas fa-check-circle"></i>
+                <i class = "fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Date Of Birth</label>
+                <input type="date" placeholder = "1997-09-28" id = "birthday"  min="1922-01-01" max="2122-12-31" required>
+                <i class = "fas fa-check-circle"></i>
+                <i class = "fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>City</label>
+                <input type="text" placeholder = "Dhaka" id = "city">
+                <i class = "fas fa-check-circle"></i>
+                <i class = "fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Phone Number</label>
+                <input type="tel" placeholder = "+8801799900274" pattern="+{1}-[8]{2}-[0]{1}-[1]{1} [0-9]{9}" id = "phone" required>
+                <i class = "fas fa-check-circle"></i>
+                <i class = "fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>E-Mail</label>
+                <input type="email" pattern="/^[a-zA-Z0-9.!#$%&*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" placeholder = "xyz@xmail.com" id = "email" required>
+                <i class = "fas fa-check-circle"></i>
+                <i class = "fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+
+            <button>Submit</button>
+                 </form>
+            </div>
+        </div>
+
+        
+    </div>
+
+
+
+
+</body>
+
+</html>
