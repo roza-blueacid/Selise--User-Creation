@@ -192,3 +192,61 @@ nav {
     margin: 0;
 } */
 
+
+.module-head h3 {
+	font-size: 14px;
+	line-height: 20px;
+	height: 20px;
+	margin: 0
+}
+.module-option {
+	border-bottom: 1px solid #e5e5e5;
+	padding: 15px 0;
+	margin: 0 15px
+}
+.module-body {
+	padding: 15px
+}
+.module-body.table {
+	padding: 15px 0
+}
+.module-body.table .table th, .module-body.table .table td {
+	padding-left: 15px;
+	padding-right: 15px
+}
+.module-foot {
+	background: #f9f9f9;
+	border-top: 1px solid #ddd;
+	-webkit-border-radius: 0 0 2px 2px;
+	-moz-border-radius: 0 0 2px 2px;
+	border-radius: 0 0 2px 2px;
+	padding: 15px
+}
+
+
+.table-container {
+    background: linear-gradient( to left, #145DA0, #ffffff );
+	background-color:#b7d3eb;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+    padding-left: 20px;
+	padding-right: 20px;
+    padding-top: 20px;
+    
+    align-items: center;
+    align-content: center;
+    align-self: center;
+	width: 100%;
+	max-width: 100%;
+    
+}
+
+.table-header {
+    background: linear-gradient( to left, #b7d3eb, #ffffff );
+	background-color:#b7d3eb;
+	border-radius: 5px;
+	border-bottom: 1px solid #356e7c;
+	background-color: #2292ee;
+	padding: 20px 40px;
+}
